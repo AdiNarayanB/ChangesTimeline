@@ -10,6 +10,7 @@ CORS(app)
 def getChanges(date1, date2):
     print("Date 1:", date1)
     print("Date 2:", date2)
+    print("added logging")
     
     changeObjs = []
     with open("changes.json", "r") as f:
